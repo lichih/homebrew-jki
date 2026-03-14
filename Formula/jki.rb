@@ -5,7 +5,7 @@ class Jki < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/lichih/just-keep-identity/releases/download/v#{version}/jki-macos-arm64.tar.gz"
-    sha256 "05061149f364c6ac3dfdda3792e44a863bbef35c82fb8f667ad1c95f4facc80d" # TODO: Update after release
+    sha256 "b17a96cba909d1816cdfb743f1a6fb919b5e4d9c980ed0a8bbdc9c9f51d57880" # TODO: Update after release
   else
     # Fallback to source build for other architectures
     url "https://github.com/lichih/just-keep-identity/archive/refs/tags/v#{version}.tar.gz"
